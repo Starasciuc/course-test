@@ -1,0 +1,142 @@
+body#body-styles{
+  /* max-width:1400px; */
+  margin:0 auto ;
+  font-family: 'Poppins', sans-serif;
+/* width:100%; */
+}
+
+header.header-header__wrapper{
+display:flex;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+box-shadow:0px 0px 4px; #aba8a8;
+padding:7px 60px;
+}
+
+@media only screen and (max-width: 768px){
+  header.header-header__wrapper{
+    display: none;
+  }
+}
+
+img.header__logo{
+  height:60px;
+  max-width:100px;
+  object-fit:contain;
+  object-position: center;
+}
+
+.header-nav__items-wrapper{
+  display:flex;
+  flex-direction: row;
+  align-items:center;
+  gap:35px;
+  font-size: 16px;
+}
+
+.header-nav__item a{
+text-decoration: none;
+color:inherit;
+cursor:pointer;
+}
+
+.header-nav__item a:hover {
+  color:#ff5300;
+}
+
+
+.header-button{
+  font-size:16px;
+  background-color: transparent;
+  border:1px solid #000;
+  BORDER-RADIUS:5px;
+  height:40px;
+  width:115px;
+  cursor:pointer;
+}
+
+.header-button:hover{
+  border-color: #ff5300;
+  color:#ff5300;
+}
+
+/* Mobile wersion Start */
+header.mobile-header-header__wrapper{
+  display:none;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  box-shadow:0px 0px 4px; #aba8a8;
+  padding:7px 35px;
+
+  }
+  @media only screen and (max-width: 768px){
+    header.mobile-header-header__wrapper{
+      display: flex;
+    }
+  }
+
+  header.mobile-header-header__wrapper i{
+  font-size:28px;
+    }
+  
+   img.mobile-header__logo{
+    height:60px;
+    width:120px;
+    object-fit:cover;
+    object-position: center;
+  } 
+
+  div.mobile-header-nav__wrapper{
+    display:none;
+    position:absolute;
+    top:0;
+    background-color: #fff;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    height: 100vh;
+    width:100%;
+  }
+
+  div.mobile-header-nav__wrapper i{
+    align-self:flex-end;
+    padding:12px 35px 0 0;
+    font-size:45px;
+    color:#ff5300;
+    font-weight: 100;
+    cursor:pointer;
+  }
+
+ ul.mobile-header-nav__items-wrapper{
+font-size:25px;
+height: 100%;
+display:flex;
+flex-direction: column;
+gap:60px;
+
+  }
+
+li.mobile-header-nav__item a{
+   color:#ff5300;
+   text-decoration: none;
+
+      }
+  
+  .mobile-header-button{
+ font-family: poppins;
+ font-size: 22px;
+ background-color: transparent;
+ border:1px solid #ff5300;
+ border-color:#ff5300;
+ color:#ff5300;
+ border-radius: 5px;
+ height: 55px;
+ width:80%;
+ margin-bottom: 6px;
+ cursor: pointer;
+  }
+  
+
+  /* Mobile wersion End */

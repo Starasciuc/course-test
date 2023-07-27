@@ -1,0 +1,80 @@
+section.hero-hero-wrapper{
+display: flex;
+flex-direction: row;
+align-items: center;
+padding: 0 60px 40px;
+margin:25px 0;
+gap:30px;
+height: 100vh;
+}
+
+
+h1.hero-text__heading{
+  font-family: work sans;
+font-size: 65px;
+font-weight: 700;
+line-height: 95px;
+max-width:95%;
+}
+
+p.hero-text__paragraph{
+color:#7b7b7b;
+font-size: 16px;
+line-height: 24px;
+margin-bottom:25px;
+}
+
+button.hero-text__button{
+  height: 50px;
+  width: 180px;
+  font-family: popins;
+  background-color: #ff5300;
+  color:#fff;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border:none;
+  border-radius: 4px;
+  cursor:pointer;
+  font-size:16px;
+}
+
+img.hero-text__image{
+  object-fit: cover;
+  object-position: center;
+  height:50%;
+  width:50%;
+  
+}
+
+/* Mobile Hero Styles */
+
+@media only screen and (max-width:760px){
+  section.hero-hero-wrapper{
+    flex-direction: column;
+    padding:0 35px ;
+  }
+  h1.hero-text__heading{
+    font-size:35px;
+    line-height: 45px;
+    margin-bottom:30px;
+  }
+
+  p.hero-text__paragraph{
+    line-height: 30px;
+  }
+  button.hero-text__button{
+    width: 100%;
+    font-size:14px;
+  }
+
+  img.hero-text__image{
+    object-fit:contain;
+    height: 275px;
+    width:100%;
+  }
+
+}
+
+/* End Hero Styles */

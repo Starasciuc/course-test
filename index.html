@@ -5,7 +5,32 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Document</title>
 </head>
-<body>
-  test
+<body id="body-id">
+  <header class="header">
+    <img class="header-logo" style="width: 10%;" src="image/17146422.jpg" alt="Our logo image">
+    <span id="javascript"></span>
+    <nav class="header-nav">
+      <ul class="header-nav_wrapper">
+        <li class="header-nav-item">home</li>
+         <li class="header-nav-item">about</li>
+          <li class="header-nav-item">blog</li>
+           <li class="header-nav-item">contact</li>
+      </ul>
+    </nav>
+  </header>
+
+  <script>
+    const LogoImageElement = document.querySelector('.header-logo')
+    const javascriptMessageElement = document.querySelector 
+    ('#javascript')
+
+    LogoImageElement.addEventListener('click',function (event) {
+      javascriptMessageElement.innerHTML = '<b>CLICKED Logo </b>'
+    })
+
+    console.log('logo element', LogoImageElement)
+    console.log('javascript message element',
+    javascriptMessageElement)
+    </script>
 </body>
 </html>

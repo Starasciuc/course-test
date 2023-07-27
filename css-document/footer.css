@@ -1,0 +1,166 @@
+footer.footer-footer-wrapper{
+  display:flex;
+  flex-direction: column;
+  color:#fff;
+  font-family: work sans;
+}
+
+ section.footer-top{
+  background-color: #373737;
+  padding:0px 60px 40px;
+  display:flex;
+  flex-direction:row;
+  align-items: flex-start;
+  justify-content: space-between;
+  /* height: 265px;  */
+
+ 
+} 
+
+div.footer-top__item{
+  max-width:25%;
+  display:flex;
+  flex-direction: column;
+ height: 100%;
+} 
+
+h5.footer-top__item-heading{
+  font-size:32px;
+  margin:45px 0 25px 0;
+  font-weight:600;
+  
+}
+
+.footer-top__item-heading-orange{
+  color:#ff5300;
+
+}
+
+
+ ul.footer-top__item-nav{
+  display:flex;
+  flex-direction: column;
+  gap:auto;
+}  
+
+
+li.footer-top__item-nav__item a{
+  text-decoration: none;
+  color:inherit;
+
+  }
+
+  li.footer-top__item-nav__item a:hover{
+  color:#ff5300;
+    }
+
+
+
+p.footer-top__item-text{
+  font-size:16px;
+  font-weight: 400;
+  line-height: 24px;
+  margin-bottom:auto;
+}
+
+
+
+form.footer-top__item-form{
+  display: flex;
+  flex-direction: row;
+  height: 45px;
+  width: 100%;
+}
+
+input.footer-top__item-form__input{
+  height: auto;
+  width:75%;
+  background-color: transparent;
+  border:1px solid #ff5300;
+  padding-left:12px;
+ 
+ }
+
+ button.footer-top__item-form__button{
+  width: 25%;
+ background-color:#FF5300;
+ border: none;
+ color:#fff;
+ cursor: pointer;
+} 
+
+.footer-top__social-links{
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+
+}
+
+.footer-top__social-links i{
+  font-size:35px;
+  color:#FF5300;
+  cursor:pointer;
+}
+
+.footer-top__social-links i:hover{
+  color:#fff;
+}
+
+section.footer-bottom{
+  background-color: #FF5300;
+  height: 45px;
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+
+
+/* Footer Mobile service */
+
+@media only screen and (max-width:768px){
+  section.footer-top{
+  flex-wrap:wrap;
+  height: 100%;
+  padding: 45px 40px;
+
+}
+
+div.footer-top__item{
+  max-width: 100%;
+  gap:15px;
+}
+
+ul.footer-top__item-nav{
+  gap:15px;
+}
+
+section.footer-bottom{
+  text-align: center;
+  height: 60px;
+  padding:0 25px;
+  line-height: 20px;
+}
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
